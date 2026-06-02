@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paytm-navy: #002E6E;
+  --color-paytm-cyan: #00B9F1;
+  --color-paytm-green: #12B76A;
+  --color-paytm-red: #E11D48;
+  --color-paytm-amber: #F59E0B;
+  --color-paytm-slate: #475569;
+  --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+html, body { height: 100%; }
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle scrollbar in tables */
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: rgba(0,0,0,.15); border-radius: 8px; }

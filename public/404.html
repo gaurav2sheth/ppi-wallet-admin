@@ -1,0 +1,13 @@
+<!doctype html>
+<html><head><meta charset="UTF-8"><title>PPI Wallet Admin</title>
+<script>
+  // SPA fallback for GitHub Pages — redirect to index with hash route preserved
+  var path = window.location.pathname;
+  var base = '/ppi-wallet-admin/';
+  if (path.startsWith(base)) {
+    var rest = path.slice(base.length);
+    window.location.replace(base + '#/' + rest + window.location.search);
+  } else {
+    window.location.replace(base);
+  }
+</script></head><body></body></html>
