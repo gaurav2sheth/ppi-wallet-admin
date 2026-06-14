@@ -3,9 +3,9 @@ import { NAV_ITEMS } from '../../utils/constants';
 
 export default function Sidebar() {
   return (
-    <aside className="w-60 shrink-0 bg-[var(--color-paytm-navy)] text-white flex flex-col">
+    <aside className="w-60 shrink-0 bg-[var(--color-primary-navy)] text-white flex flex-col">
       <div className="px-5 py-5 flex items-center gap-3 border-b border-white/10">
-        <div className="w-9 h-9 rounded-lg bg-[var(--color-paytm-cyan)] flex items-center justify-center font-bold text-[var(--color-paytm-navy)]">P</div>
+        <div className="w-9 h-9 rounded-lg bg-[var(--color-primary-cyan)] flex items-center justify-center font-bold text-[var(--color-primary-navy)]">P</div>
         <div>
           <div className="font-semibold leading-tight">PPI Wallet</div>
           <div className="text-xs text-white/60">Admin</div>

@@ -71,7 +71,7 @@ export default function CustomersPage() {
                   <tr key={c.wallet_id} className="hover:bg-slate-50">
                     <td className="px-4 py-2.5">
                       <Link to={`/customers/${c.wallet_id}`} className="flex items-center gap-2.5 group">
-                        <div className="w-8 h-8 rounded-full bg-[var(--color-paytm-navy)] text-white text-[11px] grid place-items-center font-semibold">{initials(c.name)}</div>
+                        <div className="w-8 h-8 rounded-full bg-[var(--color-primary-navy)] text-white text-[11px] grid place-items-center font-semibold">{initials(c.name)}</div>
                         <div className="min-w-0">
                           <div className="text-slate-900 group-hover:text-cyan-700">{c.name}</div>
                           <div className="text-[11px] text-slate-500 font-mono">{c.wallet_id}</div>

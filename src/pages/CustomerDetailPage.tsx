@@ -36,7 +36,7 @@ export default function CustomerDetailPage() {
 
       <Card>
         <div className="flex items-start gap-4">
-          <div className="w-14 h-14 rounded-full bg-[var(--color-paytm-navy)] text-white grid place-items-center font-semibold text-lg">
+          <div className="w-14 h-14 rounded-full bg-[var(--color-primary-navy)] text-white grid place-items-center font-semibold text-lg">
             {initials(walletId)}
           </div>
           <div className="flex-1">

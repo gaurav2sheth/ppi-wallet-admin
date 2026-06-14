@@ -1,12 +1,12 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-paytm-navy: #002E6E;
-  --color-paytm-cyan: #00B9F1;
-  --color-paytm-green: #12B76A;
-  --color-paytm-red: #E11D48;
-  --color-paytm-amber: #F59E0B;
-  --color-paytm-slate: #475569;
+  --color-primary-navy: #002E6E;
+  --color-primary-cyan: #00B9F1;
+  --color-primary-green: #12B76A;
+  --color-primary-red: #E11D48;
+  --color-primary-amber: #F59E0B;
+  --color-primary-slate: #475569;
   --font-sans: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
