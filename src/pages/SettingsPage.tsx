@@ -26,7 +26,7 @@ export default function SettingsPage() {
 
       <Card title="Useful links">
         <ul className="text-sm space-y-1.5">
-          <li>· Wallet app (consumer): <a className="text-cyan-700 hover:underline" href="https://gaurav2sheth.github.io/paytm-wallet-app/" target="_blank" rel="noreferrer">gaurav2sheth.github.io/paytm-wallet-app</a></li>
+          <li>· Wallet app (consumer): <a className="text-cyan-700 hover:underline" href="https://gaurav2sheth.github.io/ppi-wallet-app/" target="_blank" rel="noreferrer">gaurav2sheth.github.io/ppi-wallet-app</a></li>
           <li>· Backend health: <a className="text-cyan-700 hover:underline" href="https://ppi-wallet-api.onrender.com/health" target="_blank" rel="noreferrer">ppi-wallet-api.onrender.com/health</a></li>
           <li>· Source: <a className="text-cyan-700 hover:underline" href="https://github.com/gaurav2sheth/ppi-wallet-app" target="_blank" rel="noreferrer">github.com/gaurav2sheth/ppi-wallet-app</a></li>
         </ul>
